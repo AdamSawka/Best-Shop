@@ -14,6 +14,8 @@
     margin: 0 auto;
 }
 .header{
+    position: fixed;
+    width: 100%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
@@ -38,13 +40,12 @@
 }
 .navigation > ul{
     display: flex;
-    justify-content: space-between;
     min-width: 400px;
-    max-width: 700px;
+    max-width: 800px;
     padding-right: 40px;
 }
 .navigation > ul > li{
-    display: inline-block;
+    display: block;
     margin: 0 20px;
 
 
@@ -53,8 +54,9 @@
     text-decoration: none;
     text-transform: uppercase;
     font: normal normal bold 11px/15px Open Sans;
-    letter-spacing: 3.28px;
+    letter-spacing: 3px;
     color: #A5A5A5;
+    margin: 0 20px;
     opacity: 1;
     padding-bottom: 23px;
     transition: 0.1s;
@@ -62,4 +64,62 @@
 .navigation a:hover{
     color: #000000;
     border-bottom: 4px solid #08A6E4;
+}
+/*END HEADER SECTION*/
+
+/*START MAIN SECTION*/
+.section-main{
+
+    background: url("../assets/Background.png") no-repeat bottom/contain;
+    width: 100%;
+    height: 100vh;
+}
+.section-main-content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.section-main h1{
+    position: absolute;
+    font: normal normal normal 49px/57px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    top: 200px;
+    width: 226px;
+    height: 57px;
+}
+.section-main p{
+    display: block;
+    position: absolute;
+    top: 277px;
+    width: 100%;
+    height: 22px;
+    text-align: center;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.section-main button{
+    position: absolute;
+    width: 440px;
+    height: 67px;
+    top: 300px;
+    margin-top: 38px;
+    background: #08A6E4 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    border: none;
+    opacity: 1;
+}
+.section-main button > a{
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+
+
 }
