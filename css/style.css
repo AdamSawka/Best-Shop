@@ -441,5 +441,116 @@
     left:62px;
     height: 207px;
 }
+/*END SECTION BENEFITS*/
+
+/*START SECTION PRICING*/
+
+.pricing-content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pricing-content > h3{
+    align-self: flex-start;
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 71px;
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.pricing-content-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 372px;
+    height: 461px;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+}
+.pricing-content-box > h4{
+    font: normal normal bold 20px/1px Raleway;
+    color: #13253B;
+    margin-top: 34px;
+    margin-bottom: 14px;
+}
+.pricing-content-box  p{
+    display: inline-block;
+    line-height: 19px;
+}
+.pricing-content-box > p:nth-of-type(1){
+    font: normal normal 300 46px/2px Open Sans;
+    color: #FB3B64;
+    display: block;
+    line-height: 46px;
+    margin-top: 14px;
+    margin-bottom: 69px;
+}
+.pricing-content-box > label{
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+    font: normal normal normal 14px/19px Open Sans;
+}
+.pricing-content h5{
+    font: normal normal bold 12px/1px Raleway;
+    color: #13253B;
+}
+.pricing-content > span:nth-of-type(2) > p,
+.pricing-content > span:nth-of-type(3) > p {
+    line-height: 64px;
+    margin-bottom: 5px;
+}
+.pricing-content > span:nth-of-type(2) > h5{
+    margin-bottom: 61px;
+
+}
+.pricing-content > span:nth-of-type(3) > h5{
+    margin-bottom: 50px;
+}
+.pricing-content-box:nth-of-type(2){
+    width: 405px;
+    height: 500px;
+    box-shadow: 5px 10px 27px #07ACE629;
+    border: 1px solid #07ACE6;
+    border-radius: 18px;
+}.pricing-content-box:nth-of-type(3){
+     border: 1px solid #55DFB4;
+ }
+
+.pricing-content-box:nth-of-type(2) > p:nth-of-type(1){
+    font: normal normal 300 46px/2px Open Sans;
+    line-height: 70px;
+    letter-spacing: 0;
+    color: #07ACE6;
+}
+.pricing-content-box > button{
+    position: absolute;
+    width: 165px;
+    height: 50px;
+    bottom: -25px;
+    border: none;
+    background: #07ACE6 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 23px;
+    font: normal normal bold 13px/41px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+.pricing-content-box:nth-of-type(1) > button{
+  background-color: #EB476E;
+}
+.pricing-content-box:nth-of-type(3) > button{
+    background-color: #55DFB4;
+}
+
+
 
 
