@@ -478,42 +478,42 @@
     font: normal normal bold 20px/1px Raleway;
     color: #13253B;
     margin-top: 34px;
+
     margin-bottom: 14px;
 }
 .pricing-content-box  p{
     display: inline-block;
     line-height: 19px;
 }
-.pricing-content-box > p:nth-of-type(1){
+.pricing-content-box > p:first-of-type{
     font: normal normal 300 46px/2px Open Sans;
     color: #FB3B64;
     display: block;
-    line-height: 46px;
+    line-height: 64px;
     margin-top: 14px;
-    margin-bottom: 69px;
+
 }
-.pricing-content-box > label{
+.pricing-content-box > h5:first-of-type{
+    margin-top: 5px;
+
+}
+.pricing-content-box .checkbox{
     width: 100%;
     display: inline-block;
-    margin: 10px 0;
+    margin: 10px 0 10px 0;
     text-align: center;
     font: normal normal normal 14px/19px Open Sans;
+}
+.pricing-content-box > p:nth-of-type(2){
+    margin-top: 61px;
 }
 .pricing-content h5{
     font: normal normal bold 12px/1px Raleway;
     color: #13253B;
 }
-.pricing-content > span:nth-of-type(2) > p,
-.pricing-content > span:nth-of-type(3) > p {
-    line-height: 64px;
+.pricing-content  p:nth-of-type(2) ,
+.pricing-content  p:nth-of-type(3){
     margin-bottom: 5px;
-}
-.pricing-content > span:nth-of-type(2) > h5{
-    margin-bottom: 61px;
-
-}
-.pricing-content > span:nth-of-type(3) > h5{
-    margin-bottom: 50px;
 }
 .pricing-content-box:nth-of-type(2){
     width: 405px;
@@ -528,8 +528,13 @@
 .pricing-content-box:nth-of-type(2) > p:nth-of-type(1){
     font: normal normal 300 46px/2px Open Sans;
     line-height: 70px;
-    letter-spacing: 0;
     color: #07ACE6;
+}
+.pricing-content-box:nth-of-type(3) > p:nth-of-type(1){
+    font: normal normal 300 46px/2px Open Sans;
+    line-height: 70px;
+    letter-spacing: 0;
+    color: #55DFB4;
 }
 .pricing-content-box > button{
     position: absolute;
@@ -550,7 +555,17 @@
 .pricing-content-box:nth-of-type(3) > button{
     background-color: #55DFB4;
 }
+/*END PRICING SECTION*/
 
+/*START FORM SECTION*/
+.form .container{
+    height: 590px;
+}
+.form-content{
+    display: flex;
+    width: 896px;
+    height: 376px;
+}
 
 
 
