@@ -576,6 +576,7 @@
     height: 100%;
 }
 .form-content > form{
+    position: relative;
     width: 440px;
 }
 .form-description > h3 {
@@ -592,6 +593,45 @@
     color: #A5A5A5;
     margin:0 20px 0 10px;
 
+}
+form > .text-description, .email-description{
+    font: normal normal bold 11px/15px Open Sans;
+    letter-spacing: 3.28px;
+    color: #08A6E4;
+    text-transform: uppercase;
+}
+form input{
+    width: 440px;
+    height: 40px ;
+    margin-bottom: 46px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.5) ;
+    background: #FFFFFF;
+}
+form .checkbox > input{
+    position: absolute;
+    margin-top: 34px;
+    left: -34px;
+    width: 24px;
+    height: 24px;
+}
+form .checkbox > p{
+    display: inline-block;
+    margin-top: 30px;
+    width: 405px;
+    height: 108px;
+    font: normal normal normal 12px/17px Open Sans;
+    color: #707070;
+}
+.form-content button{
+    width: 226px;
+    height: 57px;
+    border: none;
+    margin: 20px 0 0 213px;
+    background: #08A6E4 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    color: #FFFFFF;
+    border-radius: 35px;
 }
 
 
