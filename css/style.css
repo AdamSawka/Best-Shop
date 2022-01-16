@@ -559,12 +559,39 @@
 
 /*START FORM SECTION*/
 .form .container{
+    display: flex;
+    justify-content: center;
     height: 590px;
 }
 .form-content{
     display: flex;
+    justify-content: center;
+    flex-direction: row;
     width: 896px;
     height: 376px;
+    margin-top: 155px;
+}
+.form-description{
+    width: 456px;
+    height: 100%;
+}
+.form-content > form{
+    width: 440px;
+}
+.form-description > h3 {
+    font: normal normal normal 49px/57px Raleway;
+    margin-bottom: 22px;
+}
+.form-description > p:first-of-type{
+    font: normal normal normal 16px/22px Open Sans;
+    margin-bottom: 42px;
+}
+.form-description .contacts{
+    display: inline-block;
+    font: normal normal 600 16px/22px Open Sans;
+    color: #A5A5A5;
+    margin:0 20px 0 10px;
+
 }
 
 
