@@ -1,12 +1,3 @@
-@import "variable";
-@import "header";
-@import "main_section";
-@import "statistics";
-@import "benefits";
-@import "pricing";
-@import "form";
-@import "footer";
-
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +11,14 @@
   position: relative;
 }
 
+@import "variable";
+@import "header";
+@import "main_section";
+@import "statistics";
+@import "benefits";
+@import "pricing";
+@import "form";
+@import "footer";
 
 
 

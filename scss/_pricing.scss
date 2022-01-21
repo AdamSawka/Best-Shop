@@ -30,11 +30,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 372px;
+  width:30%;
+  max-width: 372px;
   height: 461px;
   border: 1px solid $--color-redish  ;
   border-radius: 18px;
   @include mobile {
+    width: 80vw;
     margin: 24px 0;
   }
 }

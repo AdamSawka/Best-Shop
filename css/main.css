@@ -1,10 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1352px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .header {
   position: fixed;
   width: 100%;
   background: #FFFFFF 0 0 no-repeat padding-box;
   box-shadow: 0 3px 6px #00000029;
   opacity: 1;
-  z-index: 2;
+  z-index: 5;
 }
 
 .header .container {
@@ -15,6 +28,7 @@
 }
 @media screen and (max-width: 950px) {
   .header .container {
+    position: relative;
     width: 100%;
     padding: 15px;
   }
@@ -55,12 +69,15 @@
     display: block;
     left: 50px;
   }
+  .header .container .header__menu-btn:checked ~ .navigation {
+    top: 70px;
+  }
 }
-.header .container:checked {
-  transform: translateX(100px);
-}
-.header .container:checked ~ .header__navigation {
-  transform: translateX(0);
+.header .navigation {
+  position: relative;
+  transition: 0.5s;
+  background-color: white;
+  z-index: 1;
 }
 .header .navigation > ul {
   display: flex;
@@ -69,14 +86,28 @@
   padding-right: 40px;
 }
 @media screen and (max-width: 950px) {
+  .header .navigation > ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 950px) {
   .header .navigation {
-    display: none;
+    position: absolute;
+    top: -160px;
+    width: 100%;
+    box-shadow: 0 3px 6px #00000029;
   }
 }
 
 .navigation > ul > li {
   display: block;
   margin: 0 20px;
+}
+@media screen and (max-width: 950px) {
+  .navigation > ul > li {
+    width: 100%;
+    padding: 12px;
+  }
 }
 
 .navigation a {
@@ -94,6 +125,11 @@
 .navigation a:hover {
   color: #000000;
   border-bottom: 4px solid #08A6E4;
+}
+@media screen and (max-width: 950px) {
+  .navigation a:hover {
+    border: none;
+  }
 }
 
 .section-main {
@@ -675,13 +711,15 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 372px;
+  width: 30%;
+  max-width: 372px;
   height: 461px;
   border: 1px solid #FB3B64;
   border-radius: 18px;
 }
 @media screen and (max-width: 950px) {
   .pricing-content-box {
+    width: 80vw;
     margin: 24px 0;
   }
 }
@@ -941,18 +979,5 @@ form .checkbox > p {
   width: 24px;
   height: 24px;
   margin: 35px 20px 0 0;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 100%;
-  max-width: 1352px;
-  margin: 0 auto;
-  position: relative;
 }
 /*# sourceMappingURL=main.css.map */

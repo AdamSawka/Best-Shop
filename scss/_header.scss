@@ -6,7 +6,7 @@
   background: $--color-white 0 0 no-repeat padding-box;
   box-shadow: 0 3px 6px #00000029;
   opacity: 1;
-  z-index: 2;
+  z-index: 5;
 }
 
 .header {
@@ -16,6 +16,7 @@
     justify-content: space-between;
     height: 70px;
     @include mobile {
+      position: relative;
       width: 100%;
       padding: 15px;
 
@@ -37,16 +38,18 @@
 
     .header__menu-btn {
       display: none;
-       margin:0 64px 18px 0 ;
-      border-radius: calc($base-spacing/3);
+      margin: 0 64px 18px 0;
+      border-radius: calc($base-spacing / 3);
       transition: transform 0.5s;
-      color:   $--color-primary;
+      color: $--color-primary;
 
       &::before {
         display: none;
         width: 36px;
         background-color: white;
         height: 36px;
+      }
+      &:active {
       }
     }
 
@@ -55,62 +58,71 @@
         display: block;
         border: none;
         font-size: 32px;
-
-
         &::before {
           display: block;
           left: 50px;
+        }
+        &:checked {
 
+          ~.navigation{
+            top: 70px;
+          }
         }
       }
     }
 
-    &:checked {
-      transform: translateX(100px);
+  }
+    .navigation {
+      position: relative;
+      transition: 0.5s;
+      background-color: white;
+      z-index:1;
+      > ul {
+        display: flex;
+        min-width: 400px;
+        max-width: 800px;
+        padding-right: 40px;
+        @include mobile {
+          display: block;
+        }
+      }
+      @include mobile {
+        position: absolute;
+        top:-160px;
+        width: 100%;
+        box-shadow: 0 3px 6px #00000029;
 
-      & ~ .header__navigation {
-        transform: translateX(0);
       }
     }
-
   }
 
-  .navigation {
-
-    > ul {
-      display: flex;
-      min-width: 400px;
-      max-width: 800px;
-      padding-right: 40px;
-
-    }
-
+  .navigation > ul > li {
+    display: block;
+    margin: 0 20px;
     @include mobile {
-      display: none;
+      width: 100%;
+      padding: 12px;
     }
   }
-}
-
-.navigation > ul > li {
-  display: block;
-  margin: 0 20px;
 
 
-}
+  .navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: normal normal bold 11px/15px Open Sans;
+    letter-spacing: 3px;
+    color: $--color-grey;
+    margin: 0 20px;
+    opacity: 1;
+    padding-bottom: 23px;
+    transition: 0.1s;
+  }
 
-.navigation a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font: normal normal bold 11px/15px Open Sans;
-  letter-spacing: 3px;
-  color: $--color-grey;
-  margin: 0 20px;
-  opacity: 1;
-  padding-bottom: 23px;
-  transition: 0.1s;
-}
+  .navigation a:hover {
+    color: $--color-black;
+    border-bottom: 4px solid $--color-primary;
+    @include mobile {
+      border: none;
+    }
+  }
 
-.navigation a:hover {
-  color: $--color-black;
-  border-bottom: 4px solid $--color-primary;
-}
