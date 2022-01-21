@@ -1,6 +1,9 @@
 .statistics .container {
   height: 531px;
   display: block;
+  @include mobile{
+    min-height: 800px;
+  }
 }
 
 .statistics-content {
@@ -8,6 +11,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  @include mobile{
+    justify-content: space-between;
+  }
 }
 
 .statistics-content > h2 {
@@ -17,6 +23,9 @@
   letter-spacing: 0;
   color:     $--color-black  ;
   opacity: 1;
+  @include mobile {
+    margin: 50px 24px;
+  }
 }
 
 .statistics-icons {
@@ -24,6 +33,10 @@
   width: 100%;
   align-items: center;
   justify-content: center;
+  @include mobile {
+    flex-direction: column;
+
+  }
 }
 
 .icon {
@@ -34,6 +47,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+  @include mobile{
+    padding: 24px 0;
+  }
 }
 
 .icon > img {
@@ -57,7 +73,9 @@
   width: 63px;
   height: 63px;
   border-radius: 50%;
-
+  @include mobile{
+    margin: 24px 0;
+  }
 }
 
 .icon > span {
