@@ -679,7 +679,7 @@
 
 form > .text-description, .email-description {
     font: normal normal bold 11px/15px Open Sans;
-    letter-spacing: 3.28px;
+    letter-spacing: 3px;
     color: var(--color-primary);
     text-transform: uppercase;
 }

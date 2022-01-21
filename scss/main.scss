@@ -1,0 +1,26 @@
+@import "variable";
+@import "header";
+@import "main_section";
+@import "statistics";
+@import "benefits";
+@import "pricing";
+@import "form";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1352px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+
+

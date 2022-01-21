@@ -1,0 +1,41 @@
+.footer {
+  background: $--color-light-grey 0 0 no-repeat padding-box;
+  box-shadow: 0 -5px 40px $--color-black 29;
+  width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 89px;
+
+    .logo {
+      display: inline-block;
+      font-size: 26px;
+      margin: 20px 0 6px 30px;
+      padding: 0;
+      width: 130px;
+    }
+
+    .copyright {
+      display: block;
+      margin-left: 30px;
+      font: normal normal normal 11px/15px Open Sans;
+      color: $--color-grey;
+    }
+
+    .social-medias {
+      img {
+        width: 24px;
+        height: 24px;
+        margin: 35px 20px 0 0;
+      }
+    }
+  }
+}
+
+
+
+
+
+

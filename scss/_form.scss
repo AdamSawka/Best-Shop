@@ -1,0 +1,87 @@
+.form .container {
+  display: flex;
+  justify-content: center;
+  height: 590px;
+  margin-bottom: 59px;
+}
+
+.form-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 896px;
+  height: 376px;
+  margin-top: 155px;
+}
+
+.form-description {
+  width: 456px;
+  height: 100%;
+}
+
+.form-content > form {
+  position: relative;
+  width: 440px;
+}
+
+.form-description > h3 {
+  font: normal normal normal 49px/57px Raleway;
+  margin-bottom: 22px;
+}
+
+.form-description > p:first-of-type {
+  font: normal normal normal 16px/22px Open Sans;
+  margin-bottom: 42px;
+}
+
+.form-description .contacts {
+  display: inline-block;
+  font: normal normal 600 16px/22px Open Sans;
+  color:     $--color-grey  ;
+  margin: 0 20px 0 10px;
+
+}
+
+form > .text-description, .email-description {
+  font: normal normal bold 11px/15px Open Sans;
+  letter-spacing: 3px;
+  color:    $--color-primary  ;
+  text-transform: uppercase;
+}
+
+form input {
+  width: 440px;
+  height: 40px;
+  margin-bottom: 46px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+
+form .checkbox > input {
+  position: absolute;
+  margin-top: 34px;
+  left: -34px;
+  width: 24px;
+  height: 24px;
+}
+
+form .checkbox > p {
+  display: inline-block;
+  margin-top: 30px;
+  width: 405px;
+  height: 108px;
+  font: normal normal normal 12px/17px Open Sans;
+  color: #707070;
+}
+
+.form-content button {
+  width: 226px;
+  height: 57px;
+  border: none;
+  margin: 20px 0 0 213px;
+  background:    $--color-primary   0 0 no-repeat padding-box;
+  box-shadow: 5px 10px 14px #07ACE629;
+  color:    $--color-white  ;
+  border-radius: 35px;
+}

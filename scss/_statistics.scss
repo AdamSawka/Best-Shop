@@ -1,0 +1,107 @@
+.statistics .container {
+  height: 531px;
+  display: block;
+}
+
+.statistics-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.statistics-content > h2 {
+  text-align: center;
+  margin: 100px 0;
+  font: normal normal normal 36px/42px Raleway;
+  letter-spacing: 0;
+  color:     $--color-black  ;
+  opacity: 1;
+}
+
+.statistics-icons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 295px;
+  position: relative;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon > img {
+  position: relative;
+  left: 5px;
+  width: 44px;
+  height: 52px;
+  z-index: 2;
+  margin-bottom: 13px;
+
+}
+
+.icon > span::before {
+  z-index: 0;
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 100px;
+  background-color:    $--color-redish  ;
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+
+}
+
+.icon > span {
+  text-align: center;
+  font: normal normal 800 20px/24px Raleway;
+  letter-spacing: 6px;
+  color:     $--color-black  ;
+  opacity: 1;
+  margin-bottom: 19px;
+}
+
+.icon > p {
+  text-align: center;
+  font: normal normal normal 17px/20px Raleway;
+  letter-spacing: 0;
+  color:     $--color-grey  ;
+  opacity: 1;
+}
+
+.statistics-icon-02 {
+  margin-top: 20px;
+}
+
+.statistics-icon-03 {
+  margin-top: 10px;
+}
+
+.statistics-icon-02 > img {
+  width: 63px;
+  height: 63px;
+  padding: 0;
+  margin: 0;
+}
+
+.statistics-icon-03 > img {
+  padding: 0;
+  margin: 10px;
+}
+
+.statistics-icon-02 > span::before {
+  background-color:    $--color-primary  ;
+}
+
+.statistics-icon-03 > span::before {
+  top: 10px;
+  background-color:    $--color-green  ;
+}
