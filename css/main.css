@@ -101,28 +101,43 @@
   width: 100%;
   height: 100vh;
 }
-
-.section-main-content {
-  height: 100vh;
+@media screen and (max-width: 950px) {
+  .section-main {
+    background-size: 800px;
+  }
+}
+.section-main .container {
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-
-.section-main h1 {
+.section-main .container .section-main-content {
+  display: flex;
+  width: 50vw;
+  height: 100%;
+  justify-content: center;
+}
+.section-main .container .section-main-content h1 {
   position: absolute;
+  text-align: center;
   font: normal normal normal 49px/57px Raleway;
   letter-spacing: 0;
   color: #000000;
   opacity: 1;
   top: 200px;
-  width: 226px;
+  width: 100%;
   height: 57px;
 }
-
-.section-main p {
+@media screen and (max-width: 950px) {
+  .section-main .container .section-main-content h1 {
+    top: 25vh;
+  }
+}
+.section-main .container .section-main-content p {
   display: block;
   position: absolute;
-  top: 277px;
+  top: 270px;
   width: 100%;
   height: 22px;
   text-align: center;
@@ -131,26 +146,35 @@
   color: #000000;
   opacity: 1;
 }
-
-.section-main-content a {
+@media screen and (max-width: 950px) {
+  .section-main .container .section-main-content p {
+    top: 35vh;
+  }
+}
+.section-main .container .section-main-content a {
   position: absolute;
   display: inline-block;
   text-align: center;
   border: none;
-  width: 440px;
+  width: 60vw;
+  max-width: 440px;
   height: 67px;
-  top: 327px;
+  top: 370px;
   font: normal normal bold 16px/22px Open Sans;
   background: #08A6E4 0 0 no-repeat padding-box;
   box-shadow: 5px 10px 14px #07ACE629;
   border-radius: 40px;
   color: #FFFFFF;
   text-decoration: none;
-  padding: 22px 154px;
+  padding: 22px 0;
   transition: 0.3s;
 }
-
-.section-main a:hover {
+@media screen and (max-width: 950px) {
+  .section-main .container .section-main-content a {
+    top: 45vh;
+  }
+}
+.section-main .container .section-main-content a:hover {
   color: #08A6E4;
   background-color: #FFFFFF;
   border: 1px solid #08A6E4;

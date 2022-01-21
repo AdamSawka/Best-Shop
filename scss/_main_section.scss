@@ -1,61 +1,83 @@
 .section-main {
-
   background: url("../assets/Background.png") no-repeat bottom/contain;
   width: 100%;
   height: 100vh;
-}
+  @include mobile {
+    background-size: 800px;
+  }
 
-.section-main-content {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-}
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.section-main h1 {
-  position: absolute;
-  font: normal normal normal 49px/57px Raleway;
-  letter-spacing: 0;
-  color:     $--color-black  ;
-  opacity: 1;
-  top: 200px;
-  width: 226px;
-  height: 57px;
-}
-
-.section-main p {
-  display: block;
-  position: absolute;
-  top: 277px;
-  width: 100%;
-  height: 22px;
-  text-align: center;
-  font: normal normal normal 16px/22px Open Sans;
-  letter-spacing: 0;
-  color:     $--color-black  ;
-  opacity: 1;
-}
+    .section-main-content {
+      display: flex;
+      width: 50vw;
+      height: 100%;
+      justify-content: center;
 
 
-.section-main-content  a {
-  position: absolute;
-  display: inline-block;
-  text-align: center;
-  border: none;
-  width: 440px;
-  height: 67px;
-  top: 327px;
-  font: normal normal bold 16px/22px Open Sans;
-  background:    $--color-primary   0 0 no-repeat padding-box;
-  box-shadow: 5px 10px 14px #07ACE629;
-  border-radius: 40px;
-  color:    $--color-white  ;
-  text-decoration: none;
-  padding: 22px 154px;
-  transition: 0.3s;
-}
+      h1 {
+        position: absolute;
+        text-align: center;
+        font: normal normal normal 49px/57px Raleway;
+        letter-spacing: 0;
+        color: $--color-black;
+        opacity: 1;
+        top: 200px;
+        width: 100%;
+        height: 57px;
+        @include mobile {
+          top: 25vh;
+        }
+      }
 
-.section-main a:hover {
-  color:    $--color-primary  ;
-  background-color:    $--color-white  ;
-  border: 1px solid    $--color-primary  ;
+      p {
+        display: block;
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        height: 22px;
+        text-align: center;
+        font: normal normal normal 16px/22px Open Sans;
+        letter-spacing: 0;
+        color: $--color-black;
+        opacity: 1;
+        @include mobile {
+          top: 35vh;
+        }
+      }
+
+
+      a {
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        border: none;
+        width: 60vw;
+        max-width:440px;
+        height: 67px;
+        top: 370px;
+        font: normal normal bold 16px/22px Open Sans;
+        background: $--color-primary 0 0 no-repeat padding-box;
+        box-shadow: 5px 10px 14px #07ACE629;
+        border-radius: 40px;
+        color: $--color-white;
+        text-decoration: none;
+        padding: 22px 0;
+        transition: 0.3s;
+        @include mobile {
+          top: 45vh;
+        }
+      }
+
+       a:hover {
+        color: $--color-primary;
+        background-color: $--color-white;
+        border: 1px solid $--color-primary;
+      }
+    }
+  }
 }
