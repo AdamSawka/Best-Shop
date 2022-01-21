@@ -15,7 +15,7 @@
 }
 @media screen and (max-width: 950px) {
   .header .container {
-    width: 100vw;
+    width: 100%;
     padding: 15px;
   }
 }
@@ -469,7 +469,7 @@
     justify-content: center;
     flex-direction: column;
     width: 90vw;
-    margin: 12px 24px 12px 24px;
+    margin: 12px 24px;
   }
 }
 
@@ -559,11 +559,14 @@
 }
 @media screen and (max-width: 950px) {
   .benefits-article-03 {
+    display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 24px;
     justify-content: center;
     height: auto;
+    width: 90vw;
+    padding-top: 24px;
+    margin: 12px 24px;
+    background: #FFFFFF;
   }
 }
 
@@ -585,6 +588,12 @@
   width: 554px;
   height: 230px;
 }
+@media screen and (max-width: 950px) {
+  .benefits-article-03-container {
+    width: 90vw;
+    height: auto;
+  }
+}
 
 .benefits-article-03-container::before {
   content: " ";
@@ -605,12 +614,22 @@
   display: block;
   margin-bottom: 44px;
 }
+@media screen and (max-width: 950px) {
+  .benefits-article-03-container p {
+    width: 100%;
+  }
+}
 
 .benefits-article-03-img-container {
   position: relative;
   width: 440px;
   height: 370px;
   background: #55DFB4;
+}
+@media screen and (max-width: 950px) {
+  .benefits-article-03-img-container {
+    width: 100%;
+  }
 }
 
 .benefits-article-03-img-container > img {
@@ -628,6 +647,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media screen and (max-width: 950px) {
+  .pricing-content {
+    flex-direction: column;
+  }
+}
 
 .pricing-content > h3 {
   align-self: flex-start;
@@ -640,6 +664,11 @@
   letter-spacing: 0;
   color: #000000;
 }
+@media screen and (max-width: 950px) {
+  .pricing-content > h3 {
+    margin-top: 24px;
+  }
+}
 
 .pricing-content-box {
   position: relative;
@@ -650,6 +679,11 @@
   height: 461px;
   border: 1px solid #FB3B64;
   border-radius: 18px;
+}
+@media screen and (max-width: 950px) {
+  .pricing-content-box {
+    margin: 24px 0;
+  }
 }
 
 .pricing-content-box > h4 {
@@ -773,25 +807,51 @@
   height: 376px;
   margin-top: 155px;
 }
+@media screen and (max-width: 950px) {
+  .form-content {
+    flex-direction: column;
+  }
+}
 
 .form-description {
   width: 456px;
   height: 100%;
+}
+@media screen and (max-width: 950px) {
+  .form-description {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .form-content > form {
   position: relative;
   width: 440px;
 }
+@media screen and (max-width: 950px) {
+  .form-content > form {
+    margin: 24px auto;
+  }
+}
 
 .form-description > h3 {
   font: normal normal normal 49px/57px Raleway;
   margin-bottom: 22px;
 }
+@media screen and (max-width: 950px) {
+  .form-description > h3 {
+    width: 100%;
+  }
+}
 
 .form-description > p:first-of-type {
   font: normal normal normal 16px/22px Open Sans;
   margin-bottom: 42px;
+}
+@media screen and (max-width: 950px) {
+  .form-description > p:first-of-type {
+    width: 100%;
+  }
 }
 
 .form-description .contacts {
@@ -856,6 +916,15 @@ form .checkbox > p {
   height: 89px;
 }
 .footer .container .logo {
+  text-align: left;
+  font: normal normal 300 32px/37px Raleway;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #08A6E4;
+  opacity: 1;
+  top: 16px;
+  left: 136px;
+  height: 37px;
   display: inline-block;
   font-size: 26px;
   margin: 20px 0 6px 30px;

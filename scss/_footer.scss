@@ -10,6 +10,16 @@
     height: 89px;
 
     .logo {
+
+      text-align: left;
+      font: normal normal 300 32px/37px Raleway;
+      letter-spacing: 0;
+      text-decoration: none;
+      color: $--color-primary;
+      opacity: 1;
+      top: 16px;
+      left: 136px;
+      height: 37px;
       display: inline-block;
       font-size: 26px;
       margin: 20px 0 6px 30px;

@@ -16,7 +16,7 @@
     justify-content: space-between;
     height: 70px;
     @include mobile {
-      width: 100vw;
+      width: 100%;
       padding: 15px;
 
     }
@@ -38,7 +38,7 @@
     .header__menu-btn {
       display: none;
        margin:0 64px 18px 0 ;
-      border-radius: calc($base-spacing / 3);
+      border-radius: calc($base-spacing/3);
       transition: transform 0.5s;
       color:   $--color-primary;
 

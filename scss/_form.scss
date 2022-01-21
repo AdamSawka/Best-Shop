@@ -12,26 +12,43 @@
   width: 896px;
   height: 376px;
   margin-top: 155px;
+  @include mobile {
+    flex-direction: column;
+
+  }
 }
 
 .form-description {
   width: 456px;
   height: 100%;
+  @include mobile {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .form-content > form {
   position: relative;
   width: 440px;
+  @include mobile {
+    margin: 24px auto;
+  }
 }
 
 .form-description > h3 {
   font: normal normal normal 49px/57px Raleway;
   margin-bottom: 22px;
+  @include mobile {
+    width: 100%;
+  }
 }
 
 .form-description > p:first-of-type {
   font: normal normal normal 16px/22px Open Sans;
   margin-bottom: 42px;
+  @include mobile {
+    width: 100%;
+  }
 }
 
 .form-description .contacts {

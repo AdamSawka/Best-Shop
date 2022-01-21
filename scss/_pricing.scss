@@ -4,6 +4,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  @include mobile {
+    flex-direction: column;
+
+  }
 }
 
 .pricing-content > h3 {
@@ -15,7 +19,10 @@
   text-align: center;
   font: normal normal normal 36px/42px Raleway;
   letter-spacing: 0;
-  color:     $--color-black  ;
+  color:$--color-black;
+  @include mobile {
+    margin-top: 24px;
+  }
 }
 
 .pricing-content-box {
@@ -25,8 +32,11 @@
   flex-direction: column;
   width: 372px;
   height: 461px;
-  border: 1px solid    $--color-redish  ;
+  border: 1px solid $--color-redish  ;
   border-radius: 18px;
+  @include mobile {
+    margin: 24px 0;
+  }
 }
 
 .pricing-content-box > h4 {
