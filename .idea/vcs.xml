@@ -2,7 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/KRA_FER_S_31_JavaScript_Przygotowanie" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/KRA_FER_S_31_Sass_RWD_Egzamin_Probny" vcs="Git" />
+    <mapping directory="D:/Java script/KRA_FER_S_31_Egzamin_1" vcs="Git" />
+    <mapping directory="D:/Java script/KRA_FER_S_31_JavaScript_Przygotowanie" vcs="Git" />
     <mapping directory="D:/Java script/KRA_FER_S_31_Sass_RWD_Egzamin_Probny" vcs="Git" />
   </component>
 </project>
