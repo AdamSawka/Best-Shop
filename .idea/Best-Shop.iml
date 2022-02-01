@@ -9,8 +9,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="KRA_FER_S_31_Sass_RWD" />
-    <orderEntry type="module" module-name="KRA_FER_S_31_Sass_RWD_Egzamin_Probny" />
-    <orderEntry type="module" module-name="KRA_FER_S_31_Egzamin_1" />
-    <orderEntry type="module" module-name="KRA_FER_S_31_JavaScript_Przygotowanie" />
+    <orderEntry type="module" module-name="KRA_FER_S_31_JavaScript" />
+    <orderEntry type="module" module-name="html5up-solid-state" />
+    <orderEntry type="module" module-name="html5up-halcyonic" />
   </component>
 </module>

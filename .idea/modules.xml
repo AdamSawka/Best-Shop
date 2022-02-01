@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Best-Shop.iml" filepath="$PROJECT_DIR$/.idea/Best-Shop.iml" />
-      <module fileurl="file://D:/Java script/KRA_FER_S_31_Egzamin_1/.idea/KRA_FER_S_31_Egzamin_1.iml" filepath="D:/Java script/KRA_FER_S_31_Egzamin_1/.idea/KRA_FER_S_31_Egzamin_1.iml" />
-      <module fileurl="file://D:/Java script/KRA_FER_S_31_JavaScript_Przygotowanie/.idea/KRA_FER_S_31_JavaScript_Przygotowanie.iml" filepath="D:/Java script/KRA_FER_S_31_JavaScript_Przygotowanie/.idea/KRA_FER_S_31_JavaScript_Przygotowanie.iml" />
+      <module fileurl="file://D:/Java script/KRA_FER_S_31_JavaScript/.idea/KRA_FER_S_31_JavaScript.iml" filepath="D:/Java script/KRA_FER_S_31_JavaScript/.idea/KRA_FER_S_31_JavaScript.iml" />
       <module fileurl="file://D:/Java script/KRA_FER_S_31_Sass_RWD/.idea/KRA_FER_S_31_Sass_RWD.iml" filepath="D:/Java script/KRA_FER_S_31_Sass_RWD/.idea/KRA_FER_S_31_Sass_RWD.iml" />
-      <module fileurl="file://D:/Java script/KRA_FER_S_31_Sass_RWD_Egzamin_Probny/.idea/KRA_FER_S_31_Sass_RWD_Egzamin_Probny.iml" filepath="D:/Java script/KRA_FER_S_31_Sass_RWD_Egzamin_Probny/.idea/KRA_FER_S_31_Sass_RWD_Egzamin_Probny.iml" />
+      <module fileurl="file://D:/Java script/html5up-halcyonic/.idea/html5up-halcyonic.iml" filepath="D:/Java script/html5up-halcyonic/.idea/html5up-halcyonic.iml" />
+      <module fileurl="file://D:/Java script/html5up-solid-state/.idea/html5up-solid-state.iml" filepath="D:/Java script/html5up-solid-state/.idea/html5up-solid-state.iml" />
     </modules>
   </component>
 </project>
