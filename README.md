@@ -1,7 +1,2 @@
 # Best-Shop
-Responsive web design done on CL workshops.
-
-
-
-
-
+Not responsive web design done on CL workshops
