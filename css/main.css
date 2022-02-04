@@ -993,12 +993,17 @@
 }
 .calc__summary .list__item {
   padding: 6px 20px;
+  width: 100%;
+  justify-content: space-between;
   background-color: #55DFB4;
   margin-bottom: 8px;
 }
 .calc__summary .list__item .item__price {
   font-weight: 700;
   font-size: 1.125rem;
+}
+.calc__summary .list__item span {
+  font: normal normal normal 19px/22px Open Sans;
 }
 
 .form .container {

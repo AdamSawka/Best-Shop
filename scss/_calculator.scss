@@ -183,6 +183,8 @@
 
       .list__item {
         padding: 6px 20px;
+        width: 100%;
+        justify-content: space-between;
         background-color: $--color-green;
         margin-bottom: 8px;
 
@@ -192,6 +194,10 @@
             font-size: 1.125rem;
           }
         }
+        span {
+          font: normal normal normal 19px/22px Open Sans;
+        }
       }
+
     }
   }
