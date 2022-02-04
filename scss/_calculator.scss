@@ -119,12 +119,11 @@
     }
 
     .form__checkbox {
-      display: flex;
       align-items: center;
-      height: 30px;
+
 
       .consent__text {
-        display: block;
+        display: inline-block;
         padding-top: 4px;
         text-align: left;
         font: normal normal normal 12px Open Sans;

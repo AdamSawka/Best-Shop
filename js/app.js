@@ -18,6 +18,8 @@ const calcSummary = document.querySelector('.calc__summary');
 
 const liProduct = document.querySelector('.li-product');
 const liOrders = document.querySelector('.li-orders');
+const productItemCalc = liProduct.querySelector('.item__calc');
+const orderItemCalc = liOrders.querySelector('.item__calc');
 
 //Function Section
 function showAndHideElements(element, product){
@@ -29,8 +31,17 @@ element.addEventListener('change', function (event) {
             product.style.display = 'none';
         }
     }
+    const finalValue = productQuantity.value * prices.products
+    productItemCalc.textContent= `${productQuantity.value} * ${prices.products} $ = ${finalValue}`;
+
+    const finalOrders = ordersInMonth.value * prices.products
+    orderItemCalc.textContent= `${ordersInMonth.value} * ${prices.orders} $ = ${finalOrders}`;
+    
+    
 })
 }
 showAndHideElements(productQuantity, liProduct);
 showAndHideElements(ordersInMonth, liOrders);
+
+
 
