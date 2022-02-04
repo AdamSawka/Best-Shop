@@ -833,6 +833,7 @@
 
 .calc {
   padding: 80px 0;
+  margin-left: 24px;
   background-color: #F7F7F7;
 }
 @media screen and (max-width: 950px) {
@@ -934,8 +935,25 @@
 .calc__select.open .select__dropdown {
   display: block;
 }
+.calc .form__checkbox {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
 .calc .form__checkbox .consent__text {
+  display: block;
   padding-top: 4px;
+  text-align: left;
+  font: normal normal normal 12px Open Sans;
+  line-height: 24px;
+  color: #707070;
+}
+.calc .form__checkbox input {
+  width: 24px;
+  height: 24px;
+}
+.calc .form__checkbox p {
+  display: block;
 }
 .calc__summary {
   width: 50%;
