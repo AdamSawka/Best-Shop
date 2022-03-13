@@ -293,7 +293,7 @@
   content: "";
   position: absolute;
   display: inline-block;
-  top: 0;
+  top: -5px;
   left: 100px;
   background-color: #FB3B64;
   width: 63px;
@@ -333,7 +333,7 @@
 
 .statistics-icon-02 > img {
   width: 63px;
-  height: 63px;
+  height: 53px;
   padding: 0;
   margin: 0;
 }
@@ -344,6 +344,7 @@
 }
 
 .statistics-icon-02 > span::before {
+  margin-bottom: 5px;
   background-color: #08A6E4;
 }
 

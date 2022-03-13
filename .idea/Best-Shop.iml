@@ -11,5 +11,14 @@
     <orderEntry type="module" module-name="KRA_FER_S_31_Sass_RWD" />
     <orderEntry type="module" module-name="KRA_FER_S_31_JavaScript" />
     <orderEntry type="module" module-name="html5up-halcyonic" />
+    <orderEntry type="module" module-name="Car_sharing" />
+    <orderEntry type="module" module-name="KRA_FER_S_31_ES6_React_Podstawy" />
+    <orderEntry type="module" module-name="JavaScript" />
+    <orderEntry type="library" name="font-awesome" level="application" />
+    <orderEntry type="module" module-name="KRA_FER_S_31_ES6_React_Podstawy_Egzamin_Probny" />
+    <orderEntry type="module" module-name="Wood-Land" />
+    <orderEntry type="module" module-name="KRA_FER_S_31_React" />
+    <orderEntry type="module" module-name="KRA_FER_S_31_React_Warsztat" />
+    <orderEntry type="module" module-name="React-Firebase-Auth" />
   </component>
 </module>

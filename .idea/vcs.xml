@@ -2,9 +2,18 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Best-Shop" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/KRA_FER_S_31_JavaScript_Przygotowanie" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/KRA_FER_S_31_Sass_RWD_Egzamin_Probny" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/soft-serve" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Car_sharing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../KRA_FER_S_31_ES6_React_Podstawy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../KRA_FER_S_31_ES6_React_Podstawy_Egzamin_Probny" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../KRA_FER_S_31_React" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../KRA_FER_S_31_React_Warsztat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../React-Firebase-Auth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Wood-Land" vcs="Git" />
     <mapping directory="D:/Java script/KRA_FER_S_31_JavaScript" vcs="Git" />
   </component>
 </project>

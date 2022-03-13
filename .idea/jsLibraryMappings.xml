@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/.." libraries="{font-awesome}" />
+    <file url="file://$PROJECT_DIR$" libraries="{font-awesome}" />
+    <file url="file://$PROJECT_DIR$/../Car_sharing" libraries="{font-awesome}" />
+    <file url="file://$PROJECT_DIR$/../KRA_FER_S_31_ES6_React_Podstawy" libraries="{font-awesome}" />
+  </component>
+</project>

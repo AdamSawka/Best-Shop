@@ -3,8 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Best-Shop.iml" filepath="$PROJECT_DIR$/.idea/Best-Shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Car_sharing/.idea/Car_sharing.iml" filepath="$PROJECT_DIR$/../Car_sharing/.idea/Car_sharing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/JavaScript.iml" filepath="$PROJECT_DIR$/../.idea/JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KRA_FER_S_31_ES6_React_Podstawy/.idea/KRA_FER_S_31_ES6_React_Podstawy.iml" filepath="$PROJECT_DIR$/../KRA_FER_S_31_ES6_React_Podstawy/.idea/KRA_FER_S_31_ES6_React_Podstawy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KRA_FER_S_31_ES6_React_Podstawy_Egzamin_Probny/.idea/KRA_FER_S_31_ES6_React_Podstawy_Egzamin_Probny.iml" filepath="$PROJECT_DIR$/../KRA_FER_S_31_ES6_React_Podstawy_Egzamin_Probny/.idea/KRA_FER_S_31_ES6_React_Podstawy_Egzamin_Probny.iml" />
       <module fileurl="file://D:/Java script/KRA_FER_S_31_JavaScript/.idea/KRA_FER_S_31_JavaScript.iml" filepath="D:/Java script/KRA_FER_S_31_JavaScript/.idea/KRA_FER_S_31_JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KRA_FER_S_31_React/.idea/KRA_FER_S_31_React.iml" filepath="$PROJECT_DIR$/../KRA_FER_S_31_React/.idea/KRA_FER_S_31_React.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KRA_FER_S_31_React_Warsztat/.idea/KRA_FER_S_31_React_Warsztat.iml" filepath="$PROJECT_DIR$/../KRA_FER_S_31_React_Warsztat/.idea/KRA_FER_S_31_React_Warsztat.iml" />
       <module fileurl="file://D:/Java script/KRA_FER_S_31_Sass_RWD/.idea/KRA_FER_S_31_Sass_RWD.iml" filepath="D:/Java script/KRA_FER_S_31_Sass_RWD/.idea/KRA_FER_S_31_Sass_RWD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../React-Firebase-Auth/.idea/React-Firebase-Auth.iml" filepath="$PROJECT_DIR$/../React-Firebase-Auth/.idea/React-Firebase-Auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Wood-land/.idea/Wood-Land.iml" filepath="$PROJECT_DIR$/../Wood-land/.idea/Wood-Land.iml" />
       <module fileurl="file://D:/Java script/html5up-halcyonic/.idea/html5up-halcyonic.iml" filepath="D:/Java script/html5up-halcyonic/.idea/html5up-halcyonic.iml" />
     </modules>
   </component>
