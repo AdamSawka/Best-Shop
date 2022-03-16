@@ -20,6 +20,8 @@
 - HTML
 - CSS
 - SCSS
+- Bootstrap
+- JavaScript
 
 ## Screenshots
 ![bs1](https://user-images.githubusercontent.com/43583762/158585615-1956b3f1-e7f3-4559-8531-9d9f4caed634.jpg)
